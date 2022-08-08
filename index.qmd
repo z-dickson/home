@@ -7,32 +7,6 @@ resources:
 ---
 
 
-<html>
-<head>
-<style>
-
-
-
-
-        
-        body {
-            margin: 20px;
-            text-align:left;
-        }
-        article{
-            padding-top: 75px;
-            display: inline-block;
-        }
-          
-        p {
-            text-align: justify;
-            font-size: 22px;
-        }
-    </style>
-</head>
-</body>
-</html>
-
 
 <img src="profile.jpeg" class="wrap" height="300" width="300" style="float: right; margin-right: 15px;"> 
  
