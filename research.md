@@ -1,0 +1,55 @@
+---
+title: Research
+echo: false
+section-divs: false
+keep-md: true
+---
+
+
+<html>
+    <style>
+        body {
+            margin: 20px;
+            text-align:left;
+        }
+        article{
+            padding-top: 75px;
+            display: inline-block;
+        }
+          
+        p {
+            text-align: justify;
+            font-size: 22px;
+        }
+    </style>
+</head>
+</body>
+</html>
+ 
+## Papers under Review
+
+
+* Are Women Representatives More Responsive to Women’s Issue Priorites? [[Abstract](https://github.com/z-dickson/home/raw/main/assets/des_rep_abstract.pdf)]
+* Who Sets the Agenda? Legislative Responsiveness to NGOs, Corporations and the Media [[Abstract](https://github.com/z-dickson/home/blob/main/assets/who_leads_abstract.pdf)] 
+* Social class and representation: The effects of socialization on legislators’ responsiveness [[Abstract](https://github.com/z-dickson/home/blob/main/assets/social_class_education_abstract.pdf)]
+
+
+
+## Working Papers
+- Youth Suffrage and Legislative Responsiveness to Climate Change: Evidence from Scotland 
+    - with Tevfik Murat Yildirim 
+    [[Abstract](https://github.com/z-dickson/home/blob/main/assets/youth_scotland_abstract.pdf)]
+- Intra-party Preference Diversity and Party-Voter Congruence
+- Science Skepticism in Congress During the COVID-19 Pandemic
+    - with Tevfik Murat Yildirim 
+
+    
+
+## Blog Posts & Other Publications
+
+
+-  **So Hormonal**. 2020. _Monstrous Regiment Publishing_. Horgan, E. and Dickson, Z. 
+  [[link](https://www.monstrous-regiment.com/shop/so-hormonal-essays-about-our-hormones)]
+- Were women MPs more responsive to women's priorities during the pandemic? [[medium](https://medium.com/@zachdickson94/
+were-women-mps-more-responsive-to-womens-priorities-during-the-pandemic-d62e4873d80b)]
+

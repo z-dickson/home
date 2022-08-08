@@ -1,0 +1,26 @@
+---
+title: "CV"
+---
+
+
+<html>
+    <style>
+        body {
+            margin: 20px;
+            text-align:left;
+        }
+        article{
+            padding-top: 75px;
+            display: inline-block;
+        }
+          
+        p {
+            text-align: justify;
+            font-size: 22px;
+        }
+    </style>
+</head>
+</body>
+</html>
+
+A (somewhat) recent copy of my CV can be downloaded <a href='https://github.com/z-dickson/home/raw/main/assets/zachary_dickson_CV2022.pdf'> here </a>

@@ -1,0 +1,29 @@
+---
+title: "Datasets & language models"
+---
+
+
+
+Below are some datasets that I've used in my research. All of the data are publicly available, but I've spent some time putting them together so thought I'd share. There are also some good resources for US congressional data that I've used from other researchers that might be helpful if you're interested in similar research.
+
+
+
+- **UK Parliamentary Statutory Instruments** [[github](https://github.com/z-dickson/UK_statutory_instruments)]
+- **Parliamentary Bills - Dáil Éireann (Ireland): 1950-2020** [[github](https://github.com/z-dickson/parliamentary_bills)]
+- **Parliamentary Bills - New Zealand Parliament: 1900-2020** [[github](https://github.com/z-dickson/parliamentary_bills)]
+- **All US Congressional Bills** [[github](https://github.com/unitedstates/congress)]
+- **US legislators' tweets** [[github](https://github.com/z-dickson/congresstweets)]
+
+
+
+# NLP models
+
+- BertTweet Model trained to predict opposition to COVID-19 policies from US congressmembers' tweets 
+    - [[huggingface](https://huggingface.co/z-dickson/US_politicians_covid_skepticism)]
+
+- Bert model trained to predict the [CAP issue codes](https://www.comparativeagendas.net/pages/master-codebook) of UK bills and statutory instruments
+    - [[huggingface](https://huggingface.co/z-dickson/CAP_coded_UK_statutory_instruments)]
+
+- Bert Model trained to predict the [CAP issue codes](https://www.comparativeagendas.net/pages/master-codebook) of US Congressional bills
+    - [[huggingface](https://huggingface.co/z-dickson/CAP_coded_US_Congressional_bills)]
+

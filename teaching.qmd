@@ -1,0 +1,35 @@
+---
+title: "Teaching"
+---
+<html>
+    <style>
+        body {
+            margin: 20px;
+            text-align:left;
+        }
+        article{
+            padding-top: 75px;
+            display: inline-block;
+        }
+          
+        p {
+            text-align: justify;
+            font-size: 22px;
+        }
+    </style>
+</head>
+</body>
+</html>
+
+As a Teaching Assistant, I've been involved in a number of teaching projects at the Graduate and Undergraduate Levels. 
+
+## University of Strathclyde 
+    - Machine Learning for Data Analysis - 2022
+    - Quantitative Methods 2 - 2022
+    - Quantitative Methods 1 - 2021
+    - Decisions and Outomes in Politics - 2022
+
+
+## University of Glasgow
+    - Comparative Politics - 2021 & 2022
+    - Introduction to Politics - 2020 & 2022

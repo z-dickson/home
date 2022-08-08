@@ -1,0 +1,11 @@
+{
+  "hash": "36bc7178087859b1534aea131a8941f5",
+  "result": {
+    "markdown": "---\ntitle: Research\necho: false\nsection-divs: false\nkeep-md: true\n---\n\n<html>\n    <style>\n        body {\n            margin: 20px;\n            text-align:left;\n        }\n        article{\n            padding-top: 75px;\n            display: inline-block;\n        }\n          \n        p {\n            text-align: justify;\n            font-size: 22px;\n        }\n    </style>\n</head>\n</body>\n</html>\n \n## Papers under Review\n\n\n* Are Women Representatives More Responsive to Women’s Issue Priorites? [[Abstract](https://github.com/z-dickson/home/raw/main/assets/des_rep_abstract.pdf)]\n* Who Sets the Agenda? Legislative Responsiveness to NGOs, Corporations and the Media [[Abstract](https://github.com/z-dickson/home/blob/main/assets/who_leads_abstract.pdf)] \n* Social class and representation: The effects of socialization on legislators’ responsiveness [[Abstract](https://github.com/z-dickson/home/blob/main/assets/social_class_education_abstract.pdf)]\n\n\n\n## Working Papers\n- Youth Suffrage and Legislative Responsiveness to Climate Change: Evidence from Scotland \n    - with Tevfik Murat Yildirim \n    [[Abstract](https://github.com/z-dickson/home/blob/main/assets/youth_scotland_abstract.pdf)]\n- Intra-party Preference Diversity and Party-Voter Congruence\n- Science Skepticism in Congress During the COVID-19 Pandemic\n    - with Tevfik Murat Yildirim \n\n    \n\n## Blog Posts & Other Publications\n\n\n-  **So Hormonal**. 2020. _Monstrous Regiment Publishing_. Horgan, E. and Dickson, Z. \n  [[link](https://www.monstrous-regiment.com/shop/so-hormonal-essays-about-our-hormones)]\n- Were women MPs more responsive to women's priorities during the pandemic? [[medium](https://medium.com/@zachdickson94/\nwere-women-mps-more-responsive-to-womens-priorities-during-the-pandemic-d62e4873d80b)]\n\n",
+    "supporting": [
+      "research_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
