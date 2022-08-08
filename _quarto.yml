@@ -8,8 +8,8 @@ website:
     left:
       - href: research.qmd   
       - href: teaching.qmd
-      - href: resume.qmd
       - href: datasets.qmd
+      - href: resume.qmd
 
 format:
   html:
