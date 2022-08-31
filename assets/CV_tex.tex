@@ -1,0 +1,331 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{fontawesome}
+\usepackage{wasysym}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fontawesome}
+% <================ for \faGithub github symbol
+%\usepackage{etoolbox} % <====================== already loaded in class
+\newcommand{\github}[1]{%
+   \href{#1}{\faGithubSquare}%
+}
+\makeatother
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\cvgithub}[1]{\renewcommand{\cvgithub}{#1}}
+
+
+
+\begin{document}
+
+
+\begin{center}
+    
+
+\textbf{\huge \scshape Zachary Dickson} \\
+\bigskip
+ %\begin{flushleft}
+   \faLinkedin \href{https://www.linkedin.com/in/zachary-dickson-934b1381/}{\ul{ zachary-dickson}}\\
+\faGooglePlus \href{mailto:zachdickson94@gmail.com}{\ul{ zachdickson94@gmail.com}}\\
+
+ \faGithub \href{https://github.com/z-dickson}{\ul{ github.com/z-dickson}}\\
+  \faTwitter \href{https://twitter.com/sachary_}{\ul{twitter.com/sachary\_}} \\
+ 
+ \faEnvelope \href{mailto:zachary.dickson@glasgow.ac.uk}{ zachary.dickson@glasgow.ac.uk} \\
+%\end{flushleft}
+
+\end{center}
+
+
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.gla.ac.uk/}{\ul{University of Glasgow}}}{Glasgow, UK}
+      {PhD, Politics}{Expected December 2022}
+          \resumeItemListStart
+            \resumeItem{Thesis: Essays on Legislative Responsiveness in Liberal Democracies}
+            \resumeItem{Supervised by: \href{https://www.gla.ac.uk/schools/socialpolitical/staff/sergiugherghina/}{\ul{Sergiu Gherghina}} and \href{https://www.sergipardos.com/}{\ul{Sergi Pardos-Prado}}}
+            %\resumeItem{Award/Achievement/Involvement 2}
+            %\resumeItem{Award/Achievement/Involvement 3}
+        \resumeItemListEnd
+    \resumeSubheading
+      {\href{https://www.ed.ac.uk/}{\ul{University of Edinburgh}}}{Edinburgh, UK}
+      {MSc, International Relations}{September 2019}
+          \resumeItemListStart
+            \resumeItem{Dissertation: The Ideology of Meritocracy in Western Immigration Discourse}
+            %\resumeItem{Supervised by: Sergiu Gherghina and Sergi Pardos-Prado}
+            %\resumeItem{Award/Achievement/Involvement 2}
+            %\resumeItem{Award/Achievement/Involvement 3}
+        \resumeItemListEnd
+    \resumeSubheading
+      {\href{https://www.neiu.edu/}{\ul{Northeastern Illinois University}}}{Chicago, US}
+      {BA, Political Science}{May 2018}
+        \resumeItemListStart
+            \resumeItem{GPA: 3.79/4.0}
+            %\resumeItem{Supervised by: Sergiu Gherghina and Sergi Pardos-Prado}
+            %\resumeItem{Award/Achievement/Involvement 2}
+            %\resumeItem{Award/Achievement/Involvement 3}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Research}
+  \resumeSubHeadingListStart
+  \resumeProjectHeading
+          {\textbf{\href{https://github.com/z-dickson/home/raw/84c688b27ec24e3130dc684c8fc0e5ff0fa3bb87/assets/who_leads_abstract.pdf}{\ul{\textbf{Who Sets the Agenda? Legislative Responsiveness to NGOs, Corporations and the Media}}}}}{} \par 
+          (Invited to revise and resubmit)
+    \resumeProjectHeading
+          {\textbf{\href{https://github.com/z-dickson/home/raw/0476f7de8c2f67f3424aeb183e80c10eed42ae6d/assets/womens_responsiveness_abstract.pdf}{\ul{\textbf{Are Women Representatives More Responsive to Women’s Issue Priorites?}}}}}{} \par 
+          \textit{with Tevfik Murat Yildirim} 
+          (Under review)
+    \resumeProjectHeading
+          {\textbf{\href{https://github.com/z-dickson/home/raw/main/assets/class_socialization_abstract.pdf}{\ul{\textbf{Social Class and Representation: The Effects of Socialization on Legislators’ Responsiveness in Britain}}}}}{}\par 
+          (Under review)
+    \resumeProjectHeading
+          {\textbf{\href{https://github.com/z-dickson/home/raw/84c688b27ec24e3130dc684c8fc0e5ff0fa3bb87/assets/voting_age_scotland_abstract.pdf}{\ul{\textbf{Youth Suffrage and Legislative Responsiveness to Climate Change: Evidence from Scotland}}}}}{}\par 
+          \textit{with Tevfik Murat Yildirim} 
+          (Working paper) 
+    \resumeProjectHeading
+          {\textbf{Intra-party Diversity and Party-Voter Congruence}}{}\par 
+          (Working paper) 
+    
+        
+        
+        
+        
+        
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------COMMUNITY AND LEADERSHIP-----------
+\section{Teaching Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://www.gla.ac.uk/}{\ul{University of Glasgow}}}{Glasgow, UK}
+      {Teaching Assistant}{September 2020 – Present}
+      \resumeItemListStart
+        \resumeItem{Comparative Politics}
+        \resumeItem{Introduction to Politics (x2)}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {\href{https://www.strath.ac.uk/}{\ul{University of Strathclyde}}}{Glasgow, UK}
+      {Teaching Assistant}{September 2021 – Present}
+      \resumeItemListStart
+        \resumeItem{Machine Learning for Data Analytics}
+        \resumeItem{Quantitative Methods 2: Statistics \& Analysis}
+        \resumeItem{Politics: Decision Making \& Outcomes}
+        \resumeItem{Quantitative Methods 1: Statistics \& Analysis}
+      \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+%\section{Projects}
+
+   % \resumeSubHeadingListStart
+     % \resumeProjectHeading
+        %  {\textbf{Project Title 1} $|$ \emph{Technologies used}}{June 2021 -- Present}
+        %  \resumeItemListStart
+        %    \resumeItem{Project Description 1}
+        %    \resumeItem{Project Description 2}
+        %  \resumeItemListEnd
+
+     % \resumeProjectHeading
+      %    {\textbf{Project Title 2} $|$ \emph{Technologies used}}{June 2021 -- Present}
+       %   \resumeItemListStart
+        %    \resumeItem{Project Description 1}
+        %    \resumeItem{Project Description 2}
+       %   \resumeItemListEnd
+         
+
+   % \resumeSubHeadingListEnd
+\section{Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://www.comparativecandidates.org/}{\ul{Comparative Candidates Study}}}{Glasgow, UK}
+      {Research Assistant}{August 2021 – October 2021}
+      \resumeItemListStart
+        \resumeItem{Created a dynamic measure of ideology using legislators' tweets and probabilistic classification with BERT word embeddings}
+
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+    
+    
+    
+    
+\section{Professional Experience (Non-academic)}
+
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AT\&T, Inc.}{Chicago, Illinois, US}
+      {Workforce Analyst}{2015--2018}
+      \resumeItemListStart
+       	 \resumeItem{ Implemented Six Sigma, Lean, and Agile methodologies for process improvement, project optimization, and workforce forecasting
+ 	 	 \resumeItem{Developed workflow changes, operational guidelines, problem assessments and root cause analysis} 
+        \resumeItemListEnd
+        
+    \resumeSubheading
+      {AT\&T, Inc.}{Chicago, Illinois, US}
+      {Customer Service Intern}{2013--2015}
+    \resumeItemListStart
+        \resumeItem{Performed tech support, troubleshooting and problem resolution at inbound customer care center}  
+        \resumeItem{Managed onboarding and training processes for new hires – including both technical and soft-skills training workflows and manuals}}
+        
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Julia, R, SQL, Git, Latex, Markdown}\\
+     \textbf{Statistical Inference}{: Bayesian \& Frequentist, Causal inference (DiD, RD, Synthetic Control)} \\
+     \textbf{Data Science}{: NLP (Word2Vec, LDA, Transformers), Machine learning (Tensorflow, scikit-learn, XGBoost, Gaussian Processes)}
+    }}
+ \end{itemize}
+
+
+
+\section{Conferences}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Midwest Political Science Association: Annual Conference 2022}{\textit{ - Are Women Representatives More Responsive to Women’s Issue Priorites?}} \\
+     \textbf{European Consortium for Political Research: Joint Sessions Workshop, 2022}{\textit{ - Youth Suffrage and Legislative Responsiveness to Climate Change: Evidence from Scotland}} \\
+     \textbf{American Political Science Association: Annual Conference 2022}{\textit{ - Social class and representation: The effects of socialization on legislators’ responsiveness in Britain}} \\
+     \textbf{European Consortium for Political Research: General Conference, 2022}{\textit{ - How the COVID-19 Pandemic Changed the Policy Priorities of Legislators}} \\
+     %\textbf{Frameworks}{: X, X, X} \\
+     %\textbf{Developer Tools}{: X, X, X} \\
+     %\textbf{Libraries}{: X, X, X} \\
+     %\textbf{Applications}{: X, X, X}
+    }}
+ \end{itemize}
+ 
+\section{Funding}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{European Consortium for Political Research}{ - Conference attendance for \textit{ECPR Joint Sessions, 2022}} \\
+     %\textbf{Frameworks}{: X, X, X} \\
+     %\textbf{Developer Tools}{: X, X, X} \\
+     %\textbf{Libraries}{: X, X, X} \\
+     %\textbf{Applications}{: X, X, X}
+    }}
+ \end{itemize}
+
+
+
+
+
+%-------------------------------------------
+\end{document}
+
