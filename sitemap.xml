@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://z-dickson.github.io/site/index.html</loc>
-    <lastmod>2022-12-16T21:04:30.135Z</lastmod>
+    <loc>https://z-dickson.github.io/site/about_v1.html</loc>
+    <lastmod>2022-12-19T11:26:57.336Z</lastmod>
   </url>
   <url>
-    <loc>https://z-dickson.github.io/site/resume.html</loc>
-    <lastmod>2022-12-16T21:04:30.343Z</lastmod>
+    <loc>https://z-dickson.github.io/site/index.html</loc>
+    <lastmod>2022-12-19T11:26:57.488Z</lastmod>
   </url>
   <url>
     <loc>https://z-dickson.github.io/site/datasets.html</loc>
-    <lastmod>2022-12-16T21:04:30.567Z</lastmod>
-  </url>
-  <url>
-    <loc>https://z-dickson.github.io/site/about_v1.html</loc>
-    <lastmod>2022-12-16T21:04:30.775Z</lastmod>
+    <lastmod>2022-12-19T11:26:57.644Z</lastmod>
   </url>
   <url>
     <loc>https://z-dickson.github.io/site/research.html</loc>
-    <lastmod>2022-12-16T21:04:31.011Z</lastmod>
+    <lastmod>2022-12-19T11:26:57.832Z</lastmod>
+  </url>
+  <url>
+    <loc>https://z-dickson.github.io/site/resume.html</loc>
+    <lastmod>2022-12-19T11:26:57.972Z</lastmod>
   </url>
 </urlset>
